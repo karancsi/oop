@@ -4,12 +4,8 @@ public class Gyermek extends Szemely {
 	private String iskola;
 	
 
-
-	/**
-	 * @param iskola
-	 */
 	public Gyermek(String nev,int kor, String iskola) {
-		super(nev,kor);
+		//super(nev,kor);
 		this.iskola = iskola;
 	}
 
