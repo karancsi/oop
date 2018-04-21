@@ -29,7 +29,9 @@ public class Proba {
 		 for(LinearisPolinom linpolinom : tomb){
 			 System.out.println(linpolinom);
 		 }
-		
+		 
+		 fvTabla (tomb[tomb.length -1]);
+		 
 	
 	}
 	public static void  fvTabla(Polinom polinom){
