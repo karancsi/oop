@@ -11,7 +11,7 @@ public class Proba {
 		LinearisPolinom p1 = new LinearisPolinom(2,5);
 		
 		System.out.println(p1);
-		LinearisPolinom tomb [] = new LinearisPolinom [5];
+		LinearisPolinom tomb [] = new LinearisPolinom [2];
 		System.out.println("Adja meg a polinomok együtthatóit:");
 		
 		Scanner beolvasas = new Scanner(System.in);
@@ -23,10 +23,13 @@ public class Proba {
 			double b = beolvasas.nextDouble();
 			beolvasas.nextLine();
 			
-			tomb[i] = new LinearisPolinom(a, b);
-			
+			tomb[i] = new LinearisPolinom(a, b);	
 			
 		}
+		 for(LinearisPolinom linpolinom : tomb){
+			 System.out.println(linpolinom);
+		 }
+		
 	
 	}
 	public static void  fvTabla(Polinom polinom){
