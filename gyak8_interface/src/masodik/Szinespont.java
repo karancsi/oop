@@ -1,14 +1,14 @@
-package sajat;
-import java.awt.color.*;;
+package masodik;
+import java.awt.color.*;
 
-public class szinespont extends Pont implements Iszinezheto{
+public class Szinespont extends Pont implements Iszinezheto{
 	private Color szin;
-	public szinespont(double x, double y,Color szin) {
+	public Szinespont(double x, double y,Color szin) {
 		super(x, y);
 		this.szin=szin;
 		
 	}
-	public szinespont (Color szin){
+	public Szinespont (Color szin){
 		super (0,0);
 		this.szin = szin;
 	}
